@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+button {
+  padding: 10px;
+  background-color: red;
+}
+
+.content {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+h3 {
+  text-align: center;
+  border-top: solid thin lightgray;
+  margin-right: 300px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.column {
+  display: flex;
+  column-count: 4;
+  column-gap: 60px;
+}
+
+.col1 p {
+  border-left: solid thin lightgray;
+}
+
+.col2 {
+  border-left: solid thin lightgray;
+  border-right: solid thin lightgray;
+}
+
+.minutes {
+  color: lightgray;
+  text-size-adjust: smaller;
+}
